@@ -243,7 +243,6 @@ export const LUKE_19_STUDY: InductiveStudy = {
             },
             {
               "ref": "19:17",
-              "verb": "n/a",
               "truth": "Faithfulness in \"a very little thing\" yields authority over much — kingdom reward scales out of all proportion to earthly stewardship."
             },
             {

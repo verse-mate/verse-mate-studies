@@ -307,8 +307,8 @@ export const MATTHEW_16_STUDY: InductiveStudy = {
         },
         {
           "verses": "16:18",
-          "type": "Wordplay",
-          "pairing": "*Petros* (Peter, the stone) ↔ *petra* (the bedrock) — same Greek root, distinct forms; the disciple named for the truth he confessed."
+          "type": "Comparison",
+          "pairing": "*Petros* (Peter, the stone) ↔ *petra* (the bedrock) — wordplay: same Greek root, distinct forms; the disciple named for the truth he confessed."
         },
         {
           "verses": "16:18",

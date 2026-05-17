@@ -365,8 +365,8 @@ export const LUKE_11_STUDY: InductiveStudy = {
         },
         {
           "verses": "11:47-48",
-          "type": "Contrast (ironic)",
-          "pairing": "Building the prophets' tombs (apparent honor) ↔ actually consenting to the fathers who killed them."
+          "type": "Contrast",
+          "pairing": "Building the prophets' tombs (apparent honor) ↔ actually consenting with the fathers who killed them (ironic — the very tomb-building proves complicity)."
         }
       ]
     },
