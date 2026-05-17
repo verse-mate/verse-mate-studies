@@ -273,8 +273,8 @@ export const JUDGES_12_STUDY: InductiveStudy = {
         },
         {
           "verses": "12:4",
-          "type": "Irony",
-          "pairing": "Ephraim calls the Gileadites 'fugitives' as a slur ↔ Ephraimites become literal fugitives (12:5) — the insult that triggered war becomes the very condition of the insulters."
+          "type": "Contrast",
+          "pairing": "Ephraim calls the Gileadites 'fugitives' as a slur ↔ Ephraimites become literal fugitives (12:5) — ironic: the insult that triggered war becomes the very condition of the insulters."
         },
         {
           "verses": "12:5-6",
