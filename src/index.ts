@@ -1,11 +1,13 @@
 import { InductiveStudy } from './types';
 import { MATTHEW_1_STUDY } from './matthew-1';
+import { MATTHEW_2_STUDY } from './matthew-2';
 import { MATTHEW_3_STUDY } from './matthew-3';
 import { MATTHEW_4_STUDY } from './matthew-4';
 import { MATTHEW_5_STUDY } from './matthew-5';
 import { MATTHEW_6_STUDY } from './matthew-6';
 import { MATTHEW_7_STUDY } from './matthew-7';
 import { MATTHEW_8_STUDY } from './matthew-8';
+import { MATTHEW_9_STUDY } from './matthew-9';
 import { MATTHEW_10_STUDY } from './matthew-10';
 import { MATTHEW_11_STUDY } from './matthew-11';
 import { MATTHEW_12_STUDY } from './matthew-12';
@@ -27,21 +29,25 @@ import { MATTHEW_27_STUDY } from './matthew-27';
 import { MATTHEW_28_STUDY } from './matthew-28';
 import { MARK_1_STUDY } from './mark-1';
 import { MARK_2_STUDY } from './mark-2';
+import { MARK_3_STUDY } from './mark-3';
 import { MARK_4_STUDY } from './mark-4';
 import { MARK_5_STUDY } from './mark-5';
 import { MARK_6_STUDY } from './mark-6';
 import { MARK_7_STUDY } from './mark-7';
 import { MARK_8_STUDY } from './mark-8';
+import { MARK_9_STUDY } from './mark-9';
 import { MARK_10_STUDY } from './mark-10';
 import { MARK_11_STUDY } from './mark-11';
 import { MARK_12_STUDY } from './mark-12';
 import { MARK_13_STUDY } from './mark-13';
 import { MARK_14_STUDY } from './mark-14';
 import { MARK_15_STUDY } from './mark-15';
+import { MARK_16_STUDY } from './mark-16';
 import { LUKE_1_STUDY } from './luke-1';
 import { LUKE_2_STUDY } from './luke-2';
 import { LUKE_3_STUDY } from './luke-3';
 import { LUKE_4_STUDY } from './luke-4';
+import { LUKE_5_STUDY } from './luke-5';
 import { LUKE_6_STUDY } from './luke-6';
 import { LUKE_7_STUDY } from './luke-7';
 import { LUKE_8_STUDY } from './luke-8';
@@ -70,6 +76,7 @@ import { JOHN_6_STUDY } from './john-6';
 import { JOHN_7_STUDY } from './john-7';
 import { JOHN_8_STUDY } from './john-8';
 import { JOHN_9_STUDY } from './john-9';
+import { JOHN_10_STUDY } from './john-10';
 import { JOHN_11_STUDY } from './john-11';
 import { JOHN_12_STUDY } from './john-12';
 import { JOHN_13_STUDY } from './john-13';
@@ -78,13 +85,17 @@ import { JOHN_15_STUDY } from './john-15';
 import { JOHN_16_STUDY } from './john-16';
 import { JOHN_17_STUDY } from './john-17';
 import { JOHN_18_STUDY } from './john-18';
+import { JOHN_19_STUDY } from './john-19';
 import { JOHN_20_STUDY } from './john-20';
+import { JOHN_21_STUDY } from './john-21';
 import { ACTS_1_STUDY } from './acts-1';
+import { ACTS_2_STUDY } from './acts-2';
 import { ACTS_3_STUDY } from './acts-3';
 import { ACTS_4_STUDY } from './acts-4';
 import { ACTS_5_STUDY } from './acts-5';
 import { ACTS_6_STUDY } from './acts-6';
 import { ACTS_7_STUDY } from './acts-7';
+import { ACTS_8_STUDY } from './acts-8';
 import { ACTS_9_STUDY } from './acts-9';
 import { ACTS_10_STUDY } from './acts-10';
 import { ACTS_11_STUDY } from './acts-11';
@@ -103,6 +114,7 @@ import { ACTS_23_STUDY } from './acts-23';
 import { ACTS_24_STUDY } from './acts-24';
 import { ACTS_25_STUDY } from './acts-25';
 import { ACTS_26_STUDY } from './acts-26';
+import { ACTS_27_STUDY } from './acts-27';
 import { ACTS_28_STUDY } from './acts-28';
 import { ROMANS_1_STUDY } from './romans-1';
 import { ROMANS_2_STUDY } from './romans-2';
@@ -114,6 +126,7 @@ import { ROMANS_7_STUDY } from './romans-7';
 import { ROMANS_8_STUDY } from './romans-8';
 import { ROMANS_9_STUDY } from './romans-9';
 import { ROMANS_10_STUDY } from './romans-10';
+import { ROMANS_11_STUDY } from './romans-11';
 import { ROMANS_12_STUDY } from './romans-12';
 import { ROMANS_13_STUDY } from './romans-13';
 import { ROMANS_14_STUDY } from './romans-14';
@@ -138,6 +151,7 @@ import { FIRST_CORINTHIANS_16_STUDY } from './1-corinthians-16';
 import { SECOND_CORINTHIANS_1_STUDY } from './2-corinthians-1';
 import { SECOND_CORINTHIANS_2_STUDY } from './2-corinthians-2';
 import { SECOND_CORINTHIANS_3_STUDY } from './2-corinthians-3';
+import { SECOND_CORINTHIANS_4_STUDY } from './2-corinthians-4';
 import { SECOND_CORINTHIANS_5_STUDY } from './2-corinthians-5';
 import { SECOND_CORINTHIANS_6_STUDY } from './2-corinthians-6';
 import { SECOND_CORINTHIANS_7_STUDY } from './2-corinthians-7';
@@ -186,6 +200,7 @@ import { SECOND_TIMOTHY_2_STUDY } from './2-timothy-2';
 import { SECOND_TIMOTHY_3_STUDY } from './2-timothy-3';
 import { SECOND_TIMOTHY_4_STUDY } from './2-timothy-4';
 import { TITUS_1_STUDY } from './titus-1';
+import { TITUS_2_STUDY } from './titus-2';
 import { TITUS_3_STUDY } from './titus-3';
 import { PHILEMON_1_STUDY } from './philemon-1';
 import { HEBREWS_1_STUDY } from './hebrews-1';
@@ -210,6 +225,7 @@ import { FIRST_PETER_1_STUDY } from './1-peter-1';
 import { FIRST_PETER_2_STUDY } from './1-peter-2';
 import { FIRST_PETER_3_STUDY } from './1-peter-3';
 import { FIRST_PETER_4_STUDY } from './1-peter-4';
+import { FIRST_PETER_5_STUDY } from './1-peter-5';
 import { SECOND_PETER_1_STUDY } from './2-peter-1';
 import { SECOND_PETER_2_STUDY } from './2-peter-2';
 import { SECOND_PETER_3_STUDY } from './2-peter-3';
@@ -246,12 +262,14 @@ import { REVELATION_22_STUDY } from './revelation-22';
 
 const STUDIES: Record<string, InductiveStudy> = {
   '40:1': MATTHEW_1_STUDY,
+  '40:2': MATTHEW_2_STUDY,
   '40:3': MATTHEW_3_STUDY,
   '40:4': MATTHEW_4_STUDY,
   '40:5': MATTHEW_5_STUDY,
   '40:6': MATTHEW_6_STUDY,
   '40:7': MATTHEW_7_STUDY,
   '40:8': MATTHEW_8_STUDY,
+  '40:9': MATTHEW_9_STUDY,
   '40:10': MATTHEW_10_STUDY,
   '40:11': MATTHEW_11_STUDY,
   '40:12': MATTHEW_12_STUDY,
@@ -273,21 +291,25 @@ const STUDIES: Record<string, InductiveStudy> = {
   '40:28': MATTHEW_28_STUDY,
   '41:1': MARK_1_STUDY,
   '41:2': MARK_2_STUDY,
+  '41:3': MARK_3_STUDY,
   '41:4': MARK_4_STUDY,
   '41:5': MARK_5_STUDY,
   '41:6': MARK_6_STUDY,
   '41:7': MARK_7_STUDY,
   '41:8': MARK_8_STUDY,
+  '41:9': MARK_9_STUDY,
   '41:10': MARK_10_STUDY,
   '41:11': MARK_11_STUDY,
   '41:12': MARK_12_STUDY,
   '41:13': MARK_13_STUDY,
   '41:14': MARK_14_STUDY,
   '41:15': MARK_15_STUDY,
+  '41:16': MARK_16_STUDY,
   '42:1': LUKE_1_STUDY,
   '42:2': LUKE_2_STUDY,
   '42:3': LUKE_3_STUDY,
   '42:4': LUKE_4_STUDY,
+  '42:5': LUKE_5_STUDY,
   '42:6': LUKE_6_STUDY,
   '42:7': LUKE_7_STUDY,
   '42:8': LUKE_8_STUDY,
@@ -316,6 +338,7 @@ const STUDIES: Record<string, InductiveStudy> = {
   '43:7': JOHN_7_STUDY,
   '43:8': JOHN_8_STUDY,
   '43:9': JOHN_9_STUDY,
+  '43:10': JOHN_10_STUDY,
   '43:11': JOHN_11_STUDY,
   '43:12': JOHN_12_STUDY,
   '43:13': JOHN_13_STUDY,
@@ -324,13 +347,17 @@ const STUDIES: Record<string, InductiveStudy> = {
   '43:16': JOHN_16_STUDY,
   '43:17': JOHN_17_STUDY,
   '43:18': JOHN_18_STUDY,
+  '43:19': JOHN_19_STUDY,
   '43:20': JOHN_20_STUDY,
+  '43:21': JOHN_21_STUDY,
   '44:1': ACTS_1_STUDY,
+  '44:2': ACTS_2_STUDY,
   '44:3': ACTS_3_STUDY,
   '44:4': ACTS_4_STUDY,
   '44:5': ACTS_5_STUDY,
   '44:6': ACTS_6_STUDY,
   '44:7': ACTS_7_STUDY,
+  '44:8': ACTS_8_STUDY,
   '44:9': ACTS_9_STUDY,
   '44:10': ACTS_10_STUDY,
   '44:11': ACTS_11_STUDY,
@@ -349,6 +376,7 @@ const STUDIES: Record<string, InductiveStudy> = {
   '44:24': ACTS_24_STUDY,
   '44:25': ACTS_25_STUDY,
   '44:26': ACTS_26_STUDY,
+  '44:27': ACTS_27_STUDY,
   '44:28': ACTS_28_STUDY,
   '45:1': ROMANS_1_STUDY,
   '45:2': ROMANS_2_STUDY,
@@ -360,6 +388,7 @@ const STUDIES: Record<string, InductiveStudy> = {
   '45:8': ROMANS_8_STUDY,
   '45:9': ROMANS_9_STUDY,
   '45:10': ROMANS_10_STUDY,
+  '45:11': ROMANS_11_STUDY,
   '45:12': ROMANS_12_STUDY,
   '45:13': ROMANS_13_STUDY,
   '45:14': ROMANS_14_STUDY,
@@ -384,6 +413,7 @@ const STUDIES: Record<string, InductiveStudy> = {
   '47:1': SECOND_CORINTHIANS_1_STUDY,
   '47:2': SECOND_CORINTHIANS_2_STUDY,
   '47:3': SECOND_CORINTHIANS_3_STUDY,
+  '47:4': SECOND_CORINTHIANS_4_STUDY,
   '47:5': SECOND_CORINTHIANS_5_STUDY,
   '47:6': SECOND_CORINTHIANS_6_STUDY,
   '47:7': SECOND_CORINTHIANS_7_STUDY,
@@ -432,6 +462,7 @@ const STUDIES: Record<string, InductiveStudy> = {
   '55:3': SECOND_TIMOTHY_3_STUDY,
   '55:4': SECOND_TIMOTHY_4_STUDY,
   '56:1': TITUS_1_STUDY,
+  '56:2': TITUS_2_STUDY,
   '56:3': TITUS_3_STUDY,
   '57:1': PHILEMON_1_STUDY,
   '58:1': HEBREWS_1_STUDY,
@@ -456,6 +487,7 @@ const STUDIES: Record<string, InductiveStudy> = {
   '60:2': FIRST_PETER_2_STUDY,
   '60:3': FIRST_PETER_3_STUDY,
   '60:4': FIRST_PETER_4_STUDY,
+  '60:5': FIRST_PETER_5_STUDY,
   '61:1': SECOND_PETER_1_STUDY,
   '61:2': SECOND_PETER_2_STUDY,
   '61:3': SECOND_PETER_3_STUDY,
