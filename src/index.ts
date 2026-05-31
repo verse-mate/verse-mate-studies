@@ -1234,3 +1234,4 @@ export async function getStudyFor(
 }
 
 export type { InductiveStudy } from './types';
+export { getStudyLabels, type StudyLabels } from './labels';
